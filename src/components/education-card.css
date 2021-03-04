@@ -1,0 +1,19 @@
+.card-education {
+  width: 500px;
+}
+
+/* .p-ed {
+  margin-bottom: 0 !important;
+  margin-top: 1rem;
+} */
+.btn {
+  background-color: #494949 !important;
+  border-color: #494949;
+  border-radius: 0;
+  color: #fffdf6;
+}
+
+.btn:hover {
+  border-color: #fffdf6;
+  color: #ece8d9;
+}

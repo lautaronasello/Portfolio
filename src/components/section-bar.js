@@ -1,16 +1,17 @@
 import { render } from "@testing-library/react";
 import React from "react";
 import "./section-bar.css";
+import { Link } from "react-router-dom";
 
 class SectionBar extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <nav className="navbar navbar-expand-lg navbar-light sticky-top shadow-sm bg-body ">
           <div className="container-fluid">
-            <a className="navbar-brand" href="#">
+            <p className="navbar-brand py-0 mb-0" href="#">
               Lautaro Nasello
-            </a>
+            </p>
             <button
               className="navbar-toggler collapsed"
               type="button"
@@ -24,35 +25,39 @@ class SectionBar extends React.Component {
             </button>
             <div className="collapse navbar-collapse " id="navbarNavAltMarkup">
               <div className="navbar-nav ">
-                <a className="nav-link " aria-current="page" href="#">
-                  Home
-                </a>
-                <a className="nav-link" href="#">
-                  About
-                </a>
-                <a className="nav-link" href="#">
-                  Knowledge
-                </a>
-                <a className="nav-link" href="#">
-                  Experience
-                </a>
-                <a className="nav-link" href="#">
-                  Projects
-                </a>
-                <a
-                  className="nav-link "
-                  href="#"
-                  tabIndex="-1"
-                  aria-disabled="true"
-                >
-                  Contact
-                </a>
+                <Link to={"/"}>
+                  <p className="nav-link py-0 mb-0" aria-current="page">
+                    Home
+                  </p>
+                </Link>
+                <Link to={"/about"}>
+                  <p className="nav-link py-0 mb-0">About</p>
+                </Link>
+                <Link to={"/knowledge"}>
+                  <p className="nav-link py-0 mb-0">Knowledge</p>
+                </Link>
+                <Link to={"/education"}>
+                  <p className="nav-link py-0 mb-0">Education</p>
+                </Link>
+                <Link to={"/projects"}>
+                  <p className="nav-link py-0 mb-0">Projects</p>
+                </Link>
+                <Link to={"/contact"}>
+                  <p
+                    className="nav-link py-0 mb-0 "
+                    href="#"
+                    tabIndex="-1"
+                    aria-disabled="true"
+                  >
+                    Contact
+                  </p>
+                </Link>
               </div>
             </div>
             <div className="navbar-nav right">
-              <a className="nav-link" href="#">
+              <p className="nav-link py-0 mb-0" href="#">
                 Switch Languaje
-              </a>
+              </p>
             </div>
           </div>
         </nav>

@@ -1,0 +1,8 @@
+.subtitle {
+  font-size: 1.5rem;
+  color: #ffffff;
+  width: fit-content;
+  padding: 2px 1.5rem;
+  background-color: #494949;
+  border-radius: 25px;
+}

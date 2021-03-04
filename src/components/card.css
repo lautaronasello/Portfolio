@@ -1,3 +1,42 @@
 .card {
-  width: 15rem;
+  width: 15.5rem;
+  margin: 6px !important;
+  border: 1px solid rgba(0, 0, 0, 0.125) !important;
+}
+
+.card-group {
+  margin-left: 1.56%;
+}
+
+.card-img-top {
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
+  margin-top: 20px;
+}
+
+/* .btn {
+  background-color: #ff971d !important;
+  border-color: #ff971d;
+} */
+
+a:hover {
+  border-color: #ffe8d6;
+  color: #73726f;
+}
+
+.card h5 {
+  font-size: 1.8rem !important;
+}
+
+@media (max-width: 576px) {
+  .card {
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #191919;
 }
