@@ -6,9 +6,9 @@ import Layout from "./components/layout";
 import About from "./About";
 import Knowledge from "./knowledge";
 import Experience from "./experience";
-import Projects from "./projects";
 import Contact from "./contact";
-
+/* import Projects from "./projects";
+ */
 function App() {
   return (
     <BrowserRouter>
@@ -18,7 +18,8 @@ function App() {
           <Route exact path="/about" component={About} />
           <Route exact path="/knowledge" component={Knowledge} />
           <Route exact path="/education" component={Experience} />
-          <Route exact path="/projects" component={Projects} />
+          {/*           <Route exact path="/projects" component={Projects} />
+           */}{" "}
           <Route exact path="/contact" component={Contact} />
         </Switch>
       </Layout>

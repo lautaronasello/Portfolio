@@ -16,14 +16,14 @@ class About extends React.Component {
               ></img>
               <div className="side-margin">
                 <hr />
-                <h5>WHO AM I?</h5>
-                <p>
+                <h1>WHO AM I?</h1>
+                <h5>
                   Hey there! My name is Lautaro, and I'm a web developer. I'm 23
                   years old, and I lived in Córdoba, Argentina. Apart from
                   coding, I'm a student of Psychology in UNC, play guitar in my
                   free times and also I keep learning new technologies because I
                   love create new things.
-                </p>
+                </h5>
               </div>
             </div>
           </div>

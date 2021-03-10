@@ -1,11 +1,17 @@
 .card-education {
-  width: 500px;
+  width: 33rem;
+  height: 33rem;
 }
 
-/* .p-ed {
-  margin-bottom: 0 !important;
-  margin-top: 1rem;
-} */
+@media (max-width: 1170px) {
+  .card-education {
+    margin-right: auto !important;
+    margin-left: auto !important;
+    width: 23rem;
+    height: 25rem;
+  }
+}
+
 .btn {
   background-color: #494949 !important;
   border-color: #494949;

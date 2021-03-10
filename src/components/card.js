@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 class Card extends React.Component {
   render() {
     return (
-      <div className="card">
+      <div className="card center">
         <img
           src="https://via.placeholder.com/100"
           className="card-img-top"

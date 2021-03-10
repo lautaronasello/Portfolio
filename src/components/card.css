@@ -1,7 +1,9 @@
 .card {
-  width: 15.5rem;
-  margin: 6px !important;
+  width: 25rem;
+  /*   margin: 6px !important;
+ */
   border: 1px solid rgba(0, 0, 0, 0.125) !important;
+  min-height: 100%;
 }
 
 .card-group {
@@ -33,6 +35,13 @@ a:hover {
   .card {
     margin-right: auto !important;
     margin-left: auto !important;
+  }
+}
+@media (max-width: 1600px) {
+  .card {
+    width: 20.2rem;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 

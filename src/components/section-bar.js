@@ -39,9 +39,9 @@ class SectionBar extends React.Component {
                 <Link to={"/education"}>
                   <p className="nav-link py-0 mb-0">Education</p>
                 </Link>
-                <Link to={"/projects"}>
+                {/*  <Link to={"/projects"}>
                   <p className="nav-link py-0 mb-0">Projects</p>
-                </Link>
+                </Link> */}
                 <Link to={"/contact"}>
                   <p
                     className="nav-link py-0 mb-0 "
