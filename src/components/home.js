@@ -9,9 +9,9 @@ class Home extends React.Component {
   render() {
     return (
       <Fragment>
-        <div className="text-center pt-5 mt-1">
+        <div className="text-center pt-5 mt-1 ">
           <Title title="Lautaro Nasello" subtitle="Frontend Developer Web" />
-          <div className="card-group text-center ">
+          <div className="card-group text-center mt-5 ">
             <div className="mx-1">
               <Link to="/about">
                 <Card section="About" text="Something about my personal life" />

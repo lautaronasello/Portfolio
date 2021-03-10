@@ -35,6 +35,7 @@ a:hover {
   .card {
     margin-right: auto !important;
     margin-left: auto !important;
+    margin-bottom: 1rem;
   }
 }
 @media (max-width: 1600px) {

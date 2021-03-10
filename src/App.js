@@ -1,5 +1,4 @@
 import "./App.css";
-import SectionBar from "./components/section-bar.js";
 import LandingPage from "./landingPage";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Layout from "./components/layout";
@@ -18,8 +17,8 @@ function App() {
           <Route exact path="/about" component={About} />
           <Route exact path="/knowledge" component={Knowledge} />
           <Route exact path="/education" component={Experience} />
-          {/*           <Route exact path="/projects" component={Projects} />
-           */}{" "}
+          {/* <Route exact path="/projects" component={Projects} /> */}
+
           <Route exact path="/contact" component={Contact} />
         </Switch>
       </Layout>

@@ -6,7 +6,7 @@ class About extends React.Component {
   render() {
     return (
       <Fragment>
-        <div className="text-center padding-top container">
+        <div className="text-center  container">
           <div className="row">
             <div className="col-md-12 ">
               <img
