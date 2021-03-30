@@ -54,11 +54,11 @@ class SectionBar extends React.Component {
                 </Link>
               </div>
             </div>
-            <div className="navbar-nav right">
+            {/* <div className="navbar-nav right">
               <p className="nav-link py-0 mb-0" href="#">
                 Switch Languaje
               </p>
-            </div>
+            </div> */}
           </div>
         </nav>
       </React.Fragment>
