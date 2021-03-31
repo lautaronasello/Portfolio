@@ -1,6 +1,7 @@
 .card-education {
-  width: 33rem;
-  height: 33rem;
+  width: 24rem;
+  height: 31rem;
+  min-height: 100%;
 }
 
 @media (max-width: 1170px) {
@@ -8,7 +9,7 @@
     margin-right: auto !important;
     margin-left: auto !important;
     width: 23rem;
-    height: 25rem;
+    height: 31rem;
   }
 }
 
@@ -23,3 +24,24 @@
   border-color: #fffdf6;
   color: #ece8d9;
 }
+
+.mystyle {
+  height: 16rem;
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
+}
+
+@media (max-width: 995px) {
+  .exp-med {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+}
+
+/* @media (min-width: 1580px) {
+  .exp-med {
+    flex: 0 0 auto !important;
+    width: 33% !important;
+  }
+} */

@@ -1,6 +1,5 @@
 import React, { Fragment } from "react";
 import Home from "./components/home.js";
-import { render } from "@testing-library/react";
 
 class LandingPage extends React.Component {
   render() {

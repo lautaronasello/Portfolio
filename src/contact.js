@@ -1,6 +1,5 @@
 import React from "react";
 import "./contact.css";
-import { Link } from "react-router-dom";
 import SocialMedia from "./components/social-media";
 class Contact extends React.Component {
   render() {

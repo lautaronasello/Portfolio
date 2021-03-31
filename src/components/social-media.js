@@ -13,7 +13,7 @@ class SocialMedia extends React.Component {
           src="https://jesuslencina.vercel.app/assets/contact/linkedin.png"
           alt="LinkedIn"
           srcset=""
-          className="mt-5"
+          className="mt-5 social-media"
         />
       </a>
     );

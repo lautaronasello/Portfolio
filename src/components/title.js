@@ -1,5 +1,4 @@
 import React from "react";
-import { Fragment } from "react";
 
 class Title extends React.Component {
   render() {

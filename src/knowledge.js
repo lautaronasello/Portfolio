@@ -51,18 +51,18 @@ class Knowledge extends React.Component {
               </div>
             </div>
           </div>
-          <div className="container">
+          <div className="container my-5">
             <div className="row">
               <h1 className="margin col-md-12 center ">Languages</h1>
             </div>
-            <div className="row ">
-              <div className="col-md-6 mb-3 ">
+            <div className="row">
+              <div className="col-md-6 my-3">
                 <Card
                   section="Spanish"
                   text="Native language. I Speak it since I was born."
                 />
               </div>
-              <div className="col-md-6 mb-3  ">
+              <div className="col-md-6 my-3">
                 <Card
                   section="English"
                   text="Secondary language, I know 60% and keep learning."

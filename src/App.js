@@ -6,7 +6,6 @@ import About from "./About";
 import Knowledge from "./knowledge";
 import Experience from "./experience";
 import Contact from "./contact";
-import { TranslatorProvider } from "react-translate";
 
 /* import Projects from "./projects";
  */
