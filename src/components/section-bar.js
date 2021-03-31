@@ -1,53 +1,28 @@
 import React from "react";
 import "./section-bar.css";
 import { Link } from "react-router-dom";
+import Navbar from "react-bootstrap/Navbar";
+import Nav from "react-bootstrap/Nav";
 
 class SectionBar extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <nav className="navbar navbar-expand-lg navbar-light sticky-top shadow-sm bg-body ">
-          <div className="container-fluid">
-            <p className="navbar-brand py-0 mb-0">Lautaro Nasello</p>
-            <button
-              className="navbar-toggler "
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNavAltMarkup"
-              aria-controls="navbarNavAltMarkup"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span className="navbar-toggler-icon"></span>
-            </button>
-            <div className="collapse  navbar-collapse " id="navbarNavAltMarkup">
-              <Link to={"/"}>
-                <p className="nav-link py-0 mb-0" aria-current="page">
-                  Home
-                </p>
-              </Link>
-              <Link to={"/about"}>
-                <p className="nav-link py-0 mb-0">About</p>
-              </Link>
-              <Link to={"/knowledge"}>
-                <p className="nav-link py-0 mb-0">Knowledge</p>
-              </Link>
-              <Link to={"/education"}>
-                <p className="nav-link py-0 mb-0">Education</p>
-              </Link>
-              <Link to={"/contact"}>
-                <p
-                  className="nav-link py-0 mb-0 "
-                  href="#"
-                  tabIndex="-1"
-                  aria-disabled="true"
-                >
-                  Contact
-                </p>
-              </Link>
-            </div>
-          </div>
-        </nav>
+        <div className="mx-3 mt-2">
+          <Navbar bg="light" expand="lg">
+            <Navbar.Brand href="/">Lautaro Nasello</Navbar.Brand>
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Collapse id="basic-navbar-nav">
+              <Nav className="mr-auto">
+                <Nav.Link href="/">Home</Nav.Link>
+                <Nav.Link href="/about">About</Nav.Link>
+                <Nav.Link href="/Knowledge">Knowledge</Nav.Link>
+                <Nav.Link href="/education">Education</Nav.Link>
+                <Nav.Link href="/contact">Contact</Nav.Link>
+              </Nav>
+            </Navbar.Collapse>
+          </Navbar>{" "}
+        </div>
       </React.Fragment>
     );
   }
