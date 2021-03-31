@@ -7,8 +7,8 @@ class Card extends React.Component {
       <div className="card center my-2">
         <div className="my-auto">
           <img
-            src="https://via.placeholder.com/100"
-            className="card-img-top"
+            src={this.props.img}
+            className="card-img-top img-about"
             alt="placeholder"
           />
           <div className="card-body h-50 top-50 start-50">

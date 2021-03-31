@@ -2,6 +2,11 @@ import React, { Fragment } from "react";
 import Title from "./title";
 import Card from "./card";
 import { Link } from "react-router-dom";
+import aboutimg from "./img/about.jpeg";
+import birreteimg from "./img/birrete.png";
+import linkedinimg from "./img/linkedin.png";
+import brainimg from "./img/brain.png";
+import userimg from "./img/user1.png";
 
 import "./home.css";
 class Home extends React.Component {
@@ -18,6 +23,7 @@ class Home extends React.Component {
                   <div className="mx-1">
                     <Link to="/about">
                       <Card
+                        img={userimg}
                         section="About"
                         text="Something about my personal life"
                       />
@@ -28,6 +34,7 @@ class Home extends React.Component {
                   <div className="mx-1">
                     <Link to="/Knowledge">
                       <Card
+                        img={brainimg}
                         section="Knowledge"
                         text="My knowledge from new tecnologies"
                       />
@@ -38,6 +45,7 @@ class Home extends React.Component {
                   <div className="mx-1">
                     <Link to="/education">
                       <Card
+                        img={birreteimg}
                         section="Education"
                         text="My experience and learnig achademys"
                       />
@@ -48,6 +56,7 @@ class Home extends React.Component {
                   <div className="mx-1">
                     <Link to="/contact">
                       <Card
+                        img={linkedinimg}
                         section="Contact"
                         text="Social Media to contact and chat me!"
                       />

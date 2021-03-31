@@ -1,7 +1,7 @@
 import { Fragment } from "react";
 import React from "react";
 import "./about.css";
-import foto from "./components/foto.jpeg";
+import foto from "./components/img/about.jpeg";
 
 class About extends React.Component {
   render() {
@@ -22,7 +22,8 @@ class About extends React.Component {
                 years old, and I lived in Córdoba, Argentina. Apart from coding,
                 I'm a student of Psychology in UNC, play guitar in my free times
                 and also I keep learning new technologies because I love create
-                new things.
+                new things. My positive attitude for the problems is my best
+                virtue!
               </h5>
             </div>
           </div>

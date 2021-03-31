@@ -1,8 +1,8 @@
 import React from "react";
 import EducationCard from "./components/education-card";
-import escuelalogo from "./components/escueladevrock.png";
-import educacionlogo from "./components/logo-educacionit.png";
-import franciscologo from "./components/colegio.JPG";
+import escuelalogo from "./components/img/escueladevrock.png";
+import educacionlogo from "./components/img/logo-educacionit.png";
+import franciscologo from "./components/img/colegio.JPG";
 import "./experience.css";
 
 class Experience extends React.Component {
