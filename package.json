@@ -1,5 +1,6 @@
 {
-  "name": "portfolio-mulan",
+  "homepage": "http://lautaronasello.github.io/{repo-name}",
+  "name": "portfolio-lautaro",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
