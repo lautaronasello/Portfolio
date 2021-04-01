@@ -36,23 +36,6 @@ a:hover {
   }
 }
 
-/* @media (min-width: 900px) {
-  .card {
-    margin-right: auto !important;
-    margin-left: auto !important;
-    margin-bottom: 1rem;
-    width: 20.2rem;
-  }
-}
-
-@media (max-width: 1600px) {
-  .card {
-    width: 20.2rem;
-    margin-right: auto;
-    margin-left: auto;
-  }
-} */
-
 a {
   text-decoration: none;
   color: #191919;
@@ -83,13 +66,6 @@ a {
   .col-md-4 {
     flex: 0 0 auto;
     width: 100%;
-  }
-}
-
-@media (min-width: 1200px) {
-  .col-md-4 {
-    flex: 0 0 auto;
-    width: 33%;
   }
 }
 

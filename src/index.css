@@ -6,7 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #191919 !important;
-  background-color: #faf6e9;
+  background-color: #fffdf6;
 }
 
 code {
@@ -34,4 +34,8 @@ a {
 
 .margin {
   margin: 35px 0px !important;
+}
+
+.text-muted {
+  z-index: 100000000;
 }

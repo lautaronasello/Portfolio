@@ -2,7 +2,6 @@ import React, { Fragment } from "react";
 import Title from "./title";
 import Card from "./card";
 import { Link } from "react-router-dom";
-import aboutimg from "./img/about.jpeg";
 import birreteimg from "./img/birrete.png";
 import linkedinimg from "./img/linkedin.png";
 import brainimg from "./img/brain.png";
@@ -13,7 +12,7 @@ class Home extends React.Component {
   render() {
     return (
       <Fragment>
-        <div className="text-center pt-5 mt-1 ">
+        <div className="text-center pt-5 mt-1 position-static">
           <Title title="Lautaro Nasello" subtitle="Frontend Developer Web" />
 
           <div className="card-group text-center mt-5 mx-0">

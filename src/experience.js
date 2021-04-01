@@ -9,13 +9,22 @@ class Experience extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <div className="position-static">
-          <div className="text-center my-3 position-absolute top-15 start-50 translate-middle-x">
-            <h1>Education</h1>
+        <div className="container top-15 ">
+          <div className="rov">
+            <div className="col-md-12">
+              <br />
+              <br />
+              <br />
+            </div>
           </div>
-          <div className="container text-center">
-            <div className="row mb-3">
-              <div className="col-md-4 my-3 exp-med position-absolute top-55 start-0 translate-middle-y">
+          <div className="row text-center my-3 ">
+            <div className="col-md-12 mb-3">
+              <h1>Education</h1>
+            </div>
+          </div>
+          <div className=" text-center">
+            <div className="row ">
+              <div className="col-md-4 mb-4">
                 <EducationCard
                   img={escuelalogo}
                   FirstSubtitle={"Escuela Dev Rock"}
@@ -26,7 +35,7 @@ class Experience extends React.Component {
                   }
                 />
               </div>
-              <div className="col-md-4 my-3 exp-med position-absolute top-55 start-50 translate-middle">
+              <div className="col-md-4 mb-4 ">
                 <EducationCard
                   img={educacionlogo}
                   FirstSubtitle={"Educacion it - Alumni"}
@@ -38,7 +47,7 @@ class Experience extends React.Component {
                 />{" "}
               </div>
 
-              <div className="col-md-4 exp-med my-3 position-absolute top-55 end-0 translate-middle-y">
+              <div className="col-md-4 mb-4 ">
                 <EducationCard
                   img={franciscologo}
                   FirstSubtitle={"Colegio Parroquial San Francisco de Asís"}

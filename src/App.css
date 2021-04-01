@@ -1,10 +1,10 @@
 html {
-  background-color: #faf6e9;
+  background-color: #fffdf6;
 }
 
 .App {
   text-align: center;
-  background-color: #faf6e9;
+  background-color: #fffdf6;
 }
 
 .App-logo {
@@ -45,4 +45,19 @@ html {
 .center {
   margin-left: auto !important;
   margin-right: auto !important;
+}
+
+.z-index {
+  z-index: 1090px;
+  position: relative;
+}
+
+.tables {
+  display: table;
+  height: 570px;
+}
+
+.subtable {
+  display: table-cell;
+  vertical-align: middle;
 }

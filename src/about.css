@@ -6,3 +6,12 @@ hr {
   margin-bottom: 50px;
   width: 15rem;
 }
+
+@media (max-width: 1170px) {
+  .card-education {
+    margin-right: auto !important;
+    margin-left: auto !important;
+    width: 23rem;
+    height: 31rem;
+  }
+}

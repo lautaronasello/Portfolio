@@ -4,12 +4,12 @@
   min-height: 100%;
 }
 
-@media (max-width: 1170px) {
+@media (max-width: 1399px) {
   .card-education {
     margin-right: auto !important;
     margin-left: auto !important;
-    width: 23rem;
-    height: 31rem;
+    width: 22rem;
+    height: 28rem;
   }
 }
 
@@ -31,17 +31,3 @@
   margin-left: auto;
   width: 50%;
 }
-
-@media (max-width: 995px) {
-  .exp-med {
-    flex: 0 0 auto;
-    width: 100%;
-  }
-}
-
-/* @media (min-width: 1580px) {
-  .exp-med {
-    flex: 0 0 auto !important;
-    width: 33% !important;
-  }
-} */

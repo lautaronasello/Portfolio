@@ -4,7 +4,7 @@ import "./card.css";
 class Card extends React.Component {
   render() {
     return (
-      <div className="card center my-2">
+      <div className="card center my-2 mx-0">
         <div className="my-auto">
           <img
             src={this.props.img}
