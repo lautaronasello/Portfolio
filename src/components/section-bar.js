@@ -11,25 +11,25 @@ class SectionBar extends React.Component {
           className="navbar fixed-top shadow-sm  mb-5 bg-body "
           expand="md"
         >
-          <Navbar.Brand className="mx-3 my-1" href="/">
+          <Navbar.Brand className="mx-3 my-1" href="/portfolio">
             Lautaro Nasello
           </Navbar.Brand>
           <Navbar.Toggle className="m-2" aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto ">
-              <Nav.Link className="ms-3" href="/">
+              <Nav.Link className="ms-3" href="/portfolio">
                 Home
               </Nav.Link>
-              <Nav.Link className="ms-3" href="/about">
+              <Nav.Link className="ms-3" href="/portfolio/about">
                 About
               </Nav.Link>
-              <Nav.Link className="ms-3" href="/Knowledge">
+              <Nav.Link className="ms-3" href="/portfolio/Knowledge">
                 Knowledge
               </Nav.Link>
-              <Nav.Link className="ms-3" href="/education">
+              <Nav.Link className="ms-3" href="/portfolio/education">
                 Education
               </Nav.Link>
-              <Nav.Link className="ms-3" href="/contact">
+              <Nav.Link className="ms-3" href="/portfolio/contact">
                 Contact
               </Nav.Link>
             </Nav>
