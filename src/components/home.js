@@ -62,13 +62,6 @@ class Home extends React.Component {
                     </Link>
                   </div>
                 </div>
-
-                {/*  <Link to="/projects">
-                        <Card
-                        section="Projects"
-                        text="Personal projects running for test"
-                        />
-                        </Link> */}
               </div>
             </div>
           </div>
