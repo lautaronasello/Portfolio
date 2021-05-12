@@ -63,10 +63,6 @@ html {
 }
 
 .card {
-  width: 20.2rem;
-  height: 22rem;
-  /*   margin: 6px !important;
- */
   border: 1px solid rgba(0, 0, 0, 0.275) !important;
   min-height: 100%;
 }
@@ -77,11 +73,6 @@ html {
   width: 50%;
   margin-top: 20px;
 }
-
-/* .btn {
-  background-color: #ff971d !important;
-  border-color: #ff971d;
-} */
 
 a:hover {
   border-color: #ffe8d6;
@@ -150,13 +141,6 @@ a {
     width: 22rem;
     height: 28rem;
   }
-}
-
-.btn {
-  background-color: #494949 !important;
-  border-color: #494949;
-  border-radius: 0;
-  color: #fffdf6;
 }
 
 .btn:hover {
