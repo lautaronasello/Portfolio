@@ -3,16 +3,15 @@ import React from 'react';
 class Card extends React.Component {
   render() {
     return (
-      <div className='card center my-2 mx-0'>
-        <div className='my-auto'>
-          <img
-            src={this.props.img}
-            className='card-img-top img-about'
-            alt='placeholder'
-          />
-          <div className='card-body h-50 top-50 start-50'>
-            <h5 className='card-title'>{this.props.section}</h5>
-            <p className='card-text'>{this.props.text}</p>
+      <div className='card' style={this.props.style}>
+        <img src={this.props.img} className='card-img-top' alt='...' />
+        <div className='card-body'>
+          <h5 className='card-title'>{this.props.title} </h5>
+          <p className='card-text'>{this.props.text}</p>
+          <div className='justify-content-md-end d-md-flex d-grid gap-2 pt-2 pe-2'>
+            <a href={this.props.href} className='btn btn-dark rounded'>
+              {this.props.btn}
+            </a>
           </div>
         </div>
       </div>
