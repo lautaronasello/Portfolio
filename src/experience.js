@@ -8,7 +8,7 @@ class Experience extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <div className='container top-15 '>
+        <div className='container mt-3 '>
           <div className='rov'>
             <div className='col-md-12'>
               <br />
@@ -16,7 +16,7 @@ class Experience extends React.Component {
               <br />
             </div>
           </div>
-          <div className='row text-center my-3 '>
+          <div className='row text-center'>
             <div className='col-md-12 mb-3'>
               <h1 className='display-4'>Education</h1>
             </div>

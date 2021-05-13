@@ -16,7 +16,7 @@ class Home extends React.Component {
 
     return (
       <Fragment>
-        <Container className='mx-auto px-0' style={{ marginTop: '5vh' }}>
+        <Container className='mx-auto px-0 mt-3'>
           <Row>
             <Col md={12} lg={12}>
               <Title
@@ -61,7 +61,7 @@ class Home extends React.Component {
               <Card
                 img={projectsimg}
                 section='Projects'
-                text='Projects for training and learning'
+                text='Training and freelance projects'
                 btn='Projects'
                 style={style}
                 href='/projects'
