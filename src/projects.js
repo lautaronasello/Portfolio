@@ -13,7 +13,7 @@ class Projects extends React.Component {
       width: '14rem',
       height: 'auto',
     };
-
+    const btnclass = 'btn btn-dark rounded';
     return (
       <React.Fragment>
         <Container className='justify-content-center aling-items-center text-center mt-3'>
@@ -46,6 +46,7 @@ class Projects extends React.Component {
                 style={style}
                 href='https://menoscaosxfavor.web.app/'
                 target='_blank'
+                btnclass={btnclass}
               />
             </Col>
             <Col md={3} lg={3}>
@@ -58,6 +59,7 @@ class Projects extends React.Component {
                 style={style}
                 href='https://snake-arg.web.app/'
                 target='_blank'
+                btnclass={btnclass}
               />
             </Col>
             <Col md={3} lg={3}>
@@ -70,6 +72,7 @@ class Projects extends React.Component {
                 style={style}
                 href='https://pokeapp-cba.web.app/'
                 target='_blank'
+                btnclass={btnclass}
               />
             </Col>
             <Col md={3} lg={3}>
@@ -86,6 +89,7 @@ class Projects extends React.Component {
                 style={style}
                 href='https://github.com/lautaronasello'
                 target='_blank'
+                btnclass={btnclass}
               />
             </Col>
           </Row>

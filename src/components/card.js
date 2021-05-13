@@ -3,7 +3,7 @@ import React from 'react';
 class Card extends React.Component {
   render() {
     return (
-      <div className='card' style={this.props.style}>
+      <div className='card mt-1' style={this.props.style}>
         <img
           src={this.props.img}
           className='card-img-top'
@@ -16,7 +16,7 @@ class Card extends React.Component {
             <a
               href={this.props.href}
               target={this.props.target}
-              className='btn btn-dark rounded'
+              className={this.props.btnclass}
             >
               {this.props.btn}
             </a>

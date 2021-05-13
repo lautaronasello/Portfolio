@@ -13,6 +13,10 @@ import usaimg from './components/img/usa.png';
 
 class Knowledge extends React.Component {
   render() {
+    const style = {
+      widht: 'auto',
+      height: '22rem',
+    };
     return (
       <Fragment>
         <div className='position-static mt-3'>
@@ -25,21 +29,24 @@ class Knowledge extends React.Component {
                 <div className='col-md-4 my-3'>
                   <Card
                     img={htmlimg}
-                    section='HTML'
+                    title='HTML'
+                    style={style}
                     text='The standar HTML5 markup languaje. I have Medium-high level to be able to build a large number of web pages.'
                   />
                 </div>
                 <div className='col-md-4 my-3'>
                   <Card
                     img={cssimg}
-                    section='CSS'
+                    title='CSS'
+                    style={style}
                     text='The graphic design language in cascading to define and create a web page.'
                   />
                 </div>
                 <div className='col-md-4 my-3'>
                   <Card
                     img={bootstrapimg}
-                    section='Bootstrap'
+                    style={style}
+                    title='Bootstrap'
                     text='CSS Library for responsive web design. I have a Medium-High level in this too.'
                   />
                 </div>
@@ -48,22 +55,25 @@ class Knowledge extends React.Component {
                 <div className='col-md-4 my-3'>
                   <Card
                     img={firebaseimg}
-                    section='Firebase'
+                    style={style}
+                    title='Firebase'
                     text='Only know how to use for deploying and RealTime database for web apps but my intention is to keep learning more.'
                   />
                 </div>
                 <div className='col-md-4 my-3'>
                   <Card
                     img={javascriptimg}
-                    section='JavaScript'
+                    style={style}
+                    title='JavaScript'
                     text='This is one of my favorites. This language add the functionality to the web page. Requires logic and lateral think.'
                   />
                 </div>
                 <div className='col-md-4 my-3'>
                   <Card
                     img={reactimg}
-                    section='React'
-                    text='The JavaScript Framework created by Facebook. Im constantly learnig from this framework. i currently have a medium level on this one.'
+                    style={style}
+                    title='React'
+                    text='The JavaScript Framework created by Facebook. Im constantly learnig from this framework. I currently have a medium level on this one.'
                   />
                 </div>
               </div>
@@ -76,14 +86,14 @@ class Knowledge extends React.Component {
                 <div className='col-md-6 my-3'>
                   <Card
                     img={españaimg}
-                    section='Spanish'
+                    title='Spanish'
                     text='Native language. I Speak it since I was born.'
                   />
                 </div>
                 <div className='col-md-6 my-3'>
                   <Card
                     img={usaimg}
-                    section='English'
+                    title='English'
                     text='Secondary language, I know 60% and keep learning.'
                   />
                 </div>
