@@ -11,8 +11,9 @@ class Home extends React.Component {
   render() {
     const style = {
       width: '14rem',
-      height: '17.5rem',
+      height: '18rem',
     };
+    const btnclass = 'btn btn-dark rounded';
 
     return (
       <Fragment>
@@ -35,6 +36,7 @@ class Home extends React.Component {
                 btn='about'
                 style={style}
                 href='/about'
+                btnclass={btnclass}
               />
             </Col>
             <Col sm={2} lg={2} className='m-auto'>
@@ -44,6 +46,7 @@ class Home extends React.Component {
                 text='Something about my personal life'
                 btn='Knowledge'
                 style={style}
+                btnclass={btnclass}
                 href='/knowledge'
               />
             </Col>
@@ -55,6 +58,7 @@ class Home extends React.Component {
                 btn='Education'
                 style={style}
                 href='/education'
+                btnclass={btnclass}
               />
             </Col>
             <Col sm={2} lg={2} className='m-auto'>
@@ -65,6 +69,7 @@ class Home extends React.Component {
                 btn='Projects'
                 style={style}
                 href='/projects'
+                btnclass={btnclass}
               />
             </Col>
             <Col sm={2} lg={2} className='m-auto'>
@@ -75,6 +80,7 @@ class Home extends React.Component {
                 btn='Contact'
                 style={style}
                 href='/contact'
+                btnclass={btnclass}
               />
             </Col>
           </Row>
