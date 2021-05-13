@@ -18,7 +18,7 @@ class Experience extends React.Component {
           </div>
           <div className='row text-center my-3 '>
             <div className='col-md-12 mb-3'>
-              <h1>Education</h1>
+              <h1 className='display-4'>Education</h1>
             </div>
           </div>
           <div className=' text-center'>
