@@ -7,13 +7,6 @@ class About extends React.Component {
     return (
       <Fragment>
         <div className='container position-static tables mt-5 pt-5'>
-          {/* <div className="row">
-            <div className="col-md-12">
-              <br />
-              <br />
-              <br />
-            </div>
-          </div> */}
           <div className='row subtable'>
             <div className='col-md-12 center'>
               <img
