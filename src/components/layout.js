@@ -1,9 +1,8 @@
-import React from "react";
-import SectionBar from "./section-bar.js";
-import Footer from "./footer.js";
+import React from 'react';
+import SectionBar from './section-bar.js';
+import Footer from './footer.js';
 
-function Layout(props) {
-  const children = props.children;
+function Layout({ children }) {
   return (
     <React.Fragment>
       <SectionBar />

@@ -1,13 +1,12 @@
-import { Fragment } from "react";
-import React from "react";
-import "./about.css";
-import foto from "./components/img/about.jpeg";
+import { Fragment } from 'react';
+import React from 'react';
+import foto from './components/img/about.jpeg';
 
 class About extends React.Component {
   render() {
     return (
       <Fragment>
-        <div className="container position-static tables mt-5 pt-5">
+        <div className='container position-static tables mt-5 pt-5'>
           {/* <div className="row">
             <div className="col-md-12">
               <br />
@@ -15,14 +14,14 @@ class About extends React.Component {
               <br />
             </div>
           </div> */}
-          <div className="row subtable">
-            <div className="col-md-12 center">
+          <div className='row subtable'>
+            <div className='col-md-12 center'>
               <img
                 src={foto}
-                className="img-thumbnail rounded mx-auto d-block img-abt"
-                alt="About"
+                className='img-thumbnail rounded mx-auto d-block img-abt'
+                alt='About'
               ></img>
-              <div className="text-center">
+              <div className='text-center'>
                 <hr />
                 <h1>WHO AM I?</h1>
                 <h5>
