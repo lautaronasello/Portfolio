@@ -28,6 +28,9 @@ class SectionBar extends React.Component {
               <Nav.Link className='ms-3' href='/education'>
                 Education
               </Nav.Link>
+              <Nav.Link className='ms-3' href='/projects'>
+                Projects
+              </Nav.Link>
               <Nav.Link className='ms-3' href='/contact'>
                 Contact
               </Nav.Link>

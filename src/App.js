@@ -6,6 +6,7 @@ import About from './About';
 import Knowledge from './knowledge';
 import Experience from './experience';
 import Contact from './contact';
+import Projects from './projects';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route exact path='/knowledge' component={Knowledge} />
           <Route exact path='/education' component={Experience} />
           <Route exact path='/contact' component={Contact} />
+          <Route exact path='/projects' component={Projects} />
         </Switch>
       </Layout>
     </BrowserRouter>

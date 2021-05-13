@@ -64,7 +64,7 @@ class Home extends React.Component {
                 text='Projects for training and learning'
                 btn='Projects'
                 style={style}
-                href='/education'
+                href='/projects'
               />
             </Col>
             <Col sm={2} lg={2} className='m-auto'>
