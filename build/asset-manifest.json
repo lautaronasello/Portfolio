@@ -1,27 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.ee63fdc7.chunk.css",
-    "main.js": "/static/js/main.73030328.chunk.js",
-    "main.js.map": "/static/js/main.73030328.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.1a8bf7e3.js",
-    "runtime-main.js.map": "/static/js/runtime-main.1a8bf7e3.js.map",
-    "static/js/2.9431e07b.chunk.js": "/static/js/2.9431e07b.chunk.js",
-    "static/js/2.9431e07b.chunk.js.map": "/static/js/2.9431e07b.chunk.js.map",
-    "static/js/3.85f2cb4c.chunk.js": "/static/js/3.85f2cb4c.chunk.js",
-    "static/js/3.85f2cb4c.chunk.js.map": "/static/js/3.85f2cb4c.chunk.js.map",
+    "main.css": "/static/css/main.bd5f86a4.chunk.css",
+    "main.js": "/static/js/main.9e2643ea.chunk.js",
+    "main.js.map": "/static/js/main.9e2643ea.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.0f5cb30b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.0f5cb30b.js.map",
+    "static/js/2.99da1f17.chunk.js": "/static/js/2.99da1f17.chunk.js",
+    "static/js/2.99da1f17.chunk.js.map": "/static/js/2.99da1f17.chunk.js.map",
+    "static/js/3.6b1bc9ed.chunk.js": "/static/js/3.6b1bc9ed.chunk.js",
+    "static/js/3.6b1bc9ed.chunk.js.map": "/static/js/3.6b1bc9ed.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.ee63fdc7.chunk.css.map": "/static/css/main.ee63fdc7.chunk.css.map",
-    "static/js/2.9431e07b.chunk.js.LICENSE.txt": "/static/js/2.9431e07b.chunk.js.LICENSE.txt",
+    "static/css/main.bd5f86a4.chunk.css.map": "/static/css/main.bd5f86a4.chunk.css.map",
+    "static/js/2.99da1f17.chunk.js.LICENSE.txt": "/static/js/2.99da1f17.chunk.js.LICENSE.txt",
+    "static/media/Pikachu.c45a3023.png": "/static/media/Pikachu.c45a3023.png",
     "static/media/about.c1b8ba29.jpeg": "/static/media/about.c1b8ba29.jpeg",
     "static/media/colegio.b6bac3dd.JPG": "/static/media/colegio.b6bac3dd.JPG",
     "static/media/html5.5df09a9e.png": "/static/media/html5.5df09a9e.png",
     "static/media/javascript.6b10299b.webp": "/static/media/javascript.6b10299b.webp",
+    "static/media/menoscaos.9ce87fa9.png": "/static/media/menoscaos.9ce87fa9.png",
     "static/media/react.5cd0be8d.png": "/static/media/react.5cd0be8d.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.1a8bf7e3.js",
-    "static/js/2.9431e07b.chunk.js",
-    "static/css/main.ee63fdc7.chunk.css",
-    "static/js/main.73030328.chunk.js"
+    "static/js/runtime-main.0f5cb30b.js",
+    "static/js/2.99da1f17.chunk.js",
+    "static/css/main.bd5f86a4.chunk.css",
+    "static/js/main.9e2643ea.chunk.js"
   ]
 }
