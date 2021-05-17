@@ -1,5 +1,3 @@
 .firebaserc
-
-node_modules/babel-preset-react-app/node_modules/@babel/preset-env/node_modules/@babel/plugin-proposal-class-properties/node_modules/@babel/core/lib/config/validation/option-assertions.js
-
 node_modules
+

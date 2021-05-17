@@ -43,7 +43,7 @@ class Home extends React.Component {
               <Card
                 img={brainimg}
                 section='Knowledge'
-                text='Something about my personal life'
+                text='My knowledge from new tecnologies'
                 btn='Knowledge'
                 style={style}
                 btnclass={btnclass}
@@ -54,7 +54,7 @@ class Home extends React.Component {
               <Card
                 img={birreteimg}
                 section='Education'
-                text='Something about my personal life'
+                text='My experience and learnig achademys'
                 btn='Education'
                 style={style}
                 href='/education'
@@ -76,7 +76,7 @@ class Home extends React.Component {
               <Card
                 img={linkedinimg}
                 section='Contact'
-                text='Something about my personal life'
+                text='Social Media to contact and chat me!'
                 btn='Contact'
                 style={style}
                 href='/contact'

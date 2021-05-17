@@ -15,7 +15,7 @@ class Knowledge extends React.Component {
   render() {
     const style = {
       widht: 'auto',
-      height: '22rem',
+      height: '23rem',
     };
     return (
       <Fragment>
